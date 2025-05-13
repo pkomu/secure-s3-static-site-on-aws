@@ -12,7 +12,7 @@ This solution includes:
 - **Amazon Route 53** (custom domain routing)
 - **CloudFormation** (Infrastructure as Code)
 
-![Architecture Diagram](./Architecture%20Diagram.drawio2.png)
+![Architecture Diagram](./Static-Website-Architecture.png)
 
 ## 🛡️ AWS Well-Architected Pillars Addressed
 
@@ -35,7 +35,7 @@ This architecture is ideal for:
 
 ## 📦 What's Included
 
-- CloudFormation template
+- [CloudFormation Template](./static-website-cfn.yaml)
 - WAF ruleset
 - HTTPS support with a custom domain
 - Private S3 bucket with Origin Access Control
